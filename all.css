@@ -51,3 +51,6 @@
     background-color: black;
     color: white;
   }
+  .footer p{
+    padding-bottom: 64px; 
+  }
