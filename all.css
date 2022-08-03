@@ -1,94 +1,128 @@
-.container{
-  margin: 0 auto;
- 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-.pic1 {
-background-image: url(img/banner.png);
-width: 1920px;
-height: 958px;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
 
+
+.container{
+  margin: 0;
+}
+.pic1{
+  background-image: url(img/banner.png);
+  width: 1920px;
+  height: 958px;
 }
 .pic1 p{
-color: white;
-font-size: 24px;
-font-weight: bold;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
 }
 .pic1 h1{
- font-size: 80px;
- color: white;
-}
-h1{
-  font-size:48px;
-  padding-top: 56px;
-  padding-bottom: 40px;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
 }
 h2{
   font-size: 64px;
-  padding-top: 56px;
-  padding-bottom: 12px;
-}
-.header p{
-  font-size: 20px;
-  padding-bottom: 68px;
-  padding-top: 32px;
-}
-.banner{
-   margin: 0 auto;
-   padding-bottom: 56px;
-
-}
-.banner h1{
- text-align: center;
-}
-img{
-  vertical-align: middle;
-}
-.banner p{
-  text-align: center;
-  font-weight: bold;
-  border-bottom: 1px solid gray;
-  font-size: 24px;
-}
-.banner ul{
-  text-align: center;
-  font-weight: bold;
-}
-.banner li{
-  font-size: 24px;
-}
-.header{
-  text-align: center;
-  background-color: black;
-  color: white;
-}
-.work{
-   background-color: black;
-   display: flex;
-   flex-wrap:wrap;
-   width: 1200px;
-}
-.styl1{
-  padding-bottom: 144px;
-}
-.styl1 ul{
-  display: flex;
-  flex-wrap:wrap;
-  width: 1200px;
-}
-.styl1 p{
-  font-size: 20px;
   padding-bottom: 56px;
-}
-h4{
+  padding-bottom: 40px;
   text-align: center;
 }
-.footer{
+.about p{
+  font-size: 24px;
+}
+.about ul{
+  font-size: 24px;
+  line-height: 42px;
+}
+.border{
+  border-top: 1px solid gray;
+}
+.brand{
   background-color: black;
-  color: white;
   text-align: center;
 }
- .footer p{
-    padding-bottom: 64px; 
-    font-size: 24px;
-  }
+.brandi{
+  background-color: black;
+  text-align: center;
+}
+.brand h2{
+font-size: 64px;
+color: white;
+}
+.brand li{
+  font-size: 24px;
+  color: white;
+}
+.brand p{
+  font-size: 20px;
+  padding-top: 32px;
+  padding-bottom: 68px;
+  color: white;
+}
+.brandi ul{
+  display: flex;
+  justify-content: center;
+}
+.brandi li{
+  padding-right: 24px;
+}
+.works p{
+  text-align: center;
+}
+.works h4{
+  text-align: center;
+}
+.works ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.works li{
+  padding: 24px;
+}
