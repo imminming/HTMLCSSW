@@ -1,56 +1,87 @@
 .container{
-    margin: 0 auto;
-  }
-  h1{
-    font-size:48px;
-    padding-top: 56px;
-    padding-bottom: 40px;
-  }
-  h2{
-    font-size: 64px;
-    padding-top: 56px;
-    padding-bottom: 12px;
-  }
-  .header p{
-    font-size: 20px;
-    padding-bottom: 68px;
-    padding-top: 32px;
-  }
-  .banner{
-     text-align: center;
-  }
-  .banner p{
-    text-align: center;
-    font-weight: bold;
-    border-bottom: 1px solid gray;
-  }
-  .banner ul{
-    text-align: center;
-    font-weight: bold;
-  }
-  .header{
-    text-align: center;
-    background-color: black;
-    color: white;
-  }
-  .work{
-     background-color: black;
-     display: flex;
-     flex-wrap:wrap;
-     width: 1200px;
-  }
-  .styl1 ul{
-    display: flex;
-    flex-wrap:wrap;
-    width: 1200px;
-  }
-  h4{
-    text-align: center;
-  }
-  .footer{
-    background-color: black;
-    color: white;
-  }
-  .footer p{
+  margin: 0 auto;
+ 
+}
+.pic1 {
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true);
+width: 1920px;
+height: 958px;
+display: block;
+text-indent: 50%;
+}
+.pic1 p{
+color: white;
+font-size: 24px;
+font-weight: bold;
+}
+.pic1 h1{
+ font-size: 80px;
+ color: white;
+}
+h1{
+  font-size:48px;
+  padding-top: 56px;
+  padding-bottom: 40px;
+}
+h2{
+  font-size: 64px;
+  padding-top: 56px;
+  padding-bottom: 12px;
+}
+.header p{
+  font-size: 20px;
+  padding-bottom: 68px;
+  padding-top: 32px;
+}
+.banner{
+   text-align: center;
+   padding-bottom: 56px;
+}
+.banner p{
+  text-align: center;
+  font-weight: bold;
+  border-bottom: 1px solid gray;
+   font-size: 24px;
+}
+.banner ul{
+  text-align: center;
+  font-weight: bold;
+}
+.banner li{
+  font-size: 24px;
+}
+.header{
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.work{
+   background-color: black;
+   display: flex;
+   flex-wrap:wrap;
+   width: 1200px;
+}
+.styl1{
+  padding-bottom: 144px;
+}
+.styl1 ul{
+  display: flex;
+  flex-wrap:wrap;
+  width: 1200px;
+}
+.styl1 p{
+  font-size: 20px;
+  padding-bottom: 56px;
+}
+h4{
+  text-align: center;
+}
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+ .footer p{
     padding-bottom: 64px; 
+    font-size: 24px;
   }
