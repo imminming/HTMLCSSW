@@ -49,6 +49,7 @@ table {
 
 
 
+
 .container{
   margin: 0;
 }
@@ -56,16 +57,25 @@ table {
   background-image: url(img/banner.png);
   width: 1920px;
   height: 958px;
+  text-align: center;
+  line-height: 42px;
+}
+.pic1 ul{
+  margin: 0 auto;
+  padding-top: 308px;
 }
 .pic1 p{
   color: white;
   font-size: 24px;
   font-weight: bold;
+  line-height: 42px;
 }
+  
 .pic1 h1{
   color: white;
   font-size: 80px;
   font-weight: bold;
+  line-height: 106px;
 }
 h2{
   font-size: 64px;
@@ -73,13 +83,18 @@ h2{
   padding-bottom: 40px;
   text-align: center;
 }
+
 .about p{
   font-size: 24px;
+  text-align: center;
+  line-height: 42px;
 }
 .about ul{
   font-size: 24px;
   line-height: 42px;
+  text-align: center;
 }
+
 .border{
   border-top: 1px solid gray;
 }
@@ -111,6 +126,7 @@ color: white;
 }
 .brandi li{
   padding-right: 24px;
+  padding-top: 40px;
 }
 .works p{
   text-align: center;
@@ -125,4 +141,16 @@ color: white;
 }
 .works li{
   padding: 24px;
+}
+.works h2{
+padding-top: 56px;
+}
+.footer{
+  background-color: black;
+  color: white;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.footer p{
+  text-align: center;
 }
