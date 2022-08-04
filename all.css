@@ -93,6 +93,7 @@ h2{
   font-size: 24px;
   line-height: 42px;
   text-align: center;
+  padding-bottom: 56px;
 }
 
 .border{
@@ -102,6 +103,14 @@ h2{
   background-color: black;
   text-align: center;
 }
+
+a::before{
+  content: "( " attr(href) " ) < ";
+  color:red;
+}
+
+
+
 .brandi{
   background-color: black;
   text-align: center;
