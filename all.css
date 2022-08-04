@@ -103,14 +103,6 @@ h2{
   background-color: black;
   text-align: center;
 }
-
-a::before{
-  content: "( " attr(href) " ) < ";
-  color:red;
-}
-
-
-
 .brandi{
   background-color: black;
   text-align: center;
