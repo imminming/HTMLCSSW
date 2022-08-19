@@ -103,13 +103,9 @@ h2{
   list-style: none;
 }
 .border ::before{
-content: ".";
+content: "●";
 color:#891818;
 font-weight: bold;
-display: inline-block 22;
-width: 100rem;
-margin-left: 2rem;
-align-items: center;
 }
 .brand{
   background-color: black;
