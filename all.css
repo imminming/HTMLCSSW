@@ -99,6 +99,18 @@ h2{
 .border{
   border-top: 1px solid gray;
 }
+.border ul{
+  list-style: none;
+}
+.border ::before{
+content: ".";
+color:#891818;
+font-weight: bold;
+display: inline-block 22;
+width: 100rem;
+margin-left: 2rem;
+align-items: center;
+}
 .brand{
   background-color: black;
   text-align: center;
