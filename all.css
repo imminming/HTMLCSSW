@@ -56,27 +56,37 @@ table {
 .pic1{
   background-image: url(img/banner.png);
   width: 1920px;
-  height: 958px;
-  text-align: center;
-  line-height: 42px;
+  height: 960px;
+  margin-bottom: 56px;
 }
 .pic1 ul{
+  max-width: 330 px;
   margin: 0 auto;
   padding-top: 308px;
+  text-align: center;
 }
-.pic1 p{
+h5{
   color: white;
   font-size: 24px;
   font-weight: bold;
   line-height: 42px;
+  padding-right: 250px;
 }
-  
-.pic1 h1{
+  .pic1 li{
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 42px;
+  padding-bottom: 40px;
+  }
+
+h1{
   color: white;
   font-size: 80px;
   font-weight: bold;
   line-height: 106px;
 }
+
 h2{
   font-size: 64px;
   padding-bottom: 56px;
@@ -95,7 +105,11 @@ h2{
   text-align: center;
   padding-bottom: 56px;
 }
-
+.about{
+  display: flex;
+  flex-direction:column ;
+  align-items: center;
+}
 .border{
   border-top: 1px solid gray;
 }
@@ -109,10 +123,6 @@ font-weight: bold;
 padding-right: 16px;
 }
 .brand{
-  background-color: black;
-  text-align: center;
-}
-.brandi{
   background-color: black;
   text-align: center;
 }
