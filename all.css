@@ -106,6 +106,7 @@ h2{
 content: "●";
 color:#891818;
 font-weight: bold;
+padding-right: 16px;
 }
 .brand{
   background-color: black;
