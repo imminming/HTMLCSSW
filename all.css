@@ -127,7 +127,6 @@ padding-right: 16px;
   text-align: center;
 }
 .brand h2{
-font-size: 64px;
 color: white;
 }
 .brand li{
@@ -150,6 +149,7 @@ color: white;
 }
 .works p{
   text-align: center;
+  font-size: 20px;
 }
 .works h4{
   text-align: center;
@@ -165,6 +165,9 @@ color: white;
 .works h2{
 padding-top: 56px;
 }
+h4{
+  font-size: 20px;
+}
 .footer{
   background-color: black;
   color: white;
@@ -173,4 +176,5 @@ padding-top: 56px;
 }
 .footer p{
   text-align: center;
+  font-size: 24px; 
 }
